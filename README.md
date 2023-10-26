@@ -15,4 +15,5 @@ Other information:
 https://drive.google.com/uc?id=1nqgUX4rcbP2jN76JrX9EiGpa1U8Kza-Y&export=download
 You then can find those source code on github at
 nRF5_SDK_17.1.0_ddde560\examples\peripheral\ee414_lab3_team05\pca10056\blank\ses
+
 For result reproduction, one simplest way are including the whole directory nRF5_SDK_17.1.0_ddde560 in your Segger directory. This ensures all the details such as changes in SDK file and libraries are included.
