@@ -2,7 +2,7 @@
 Smartwatch design running on Arduino Nano 33 BLE Sense board. The board is using nRF52840 MCU by Nordic Semiconductors, based on the ARM Cortex-M4 processor. The authors are Minh-Quang NGUYEN and Quang Huy LE, in spring 2023.
 
 Smartwatch features:
-- Automatic Time Update (using timer interrupt) and manual Time Update (synced with smartphone via Bluetooth)
+- Automatic Time Update (using timer interrupt) and manual Time Update (synced with smartphone's Time Service via Bluetooth)
 - Hand Gesture control: change the OLED screen _(SSD1306)_ with Proximity and Gesture sensor _(APDS9960)_ detecting UP, DOWN, RIGHT, LEFT movement using Interrupt.
 - Fall detection: detect the potential fall accident of the watcher bearer, using Accelerometer and Gyroscope _(LSM9DS1)_. Sending Alert via Bluetooth to Smartphone using Alert Service.
 - For features demostration, check out the demo video (low quality):
