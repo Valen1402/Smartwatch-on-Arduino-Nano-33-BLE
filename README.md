@@ -3,8 +3,8 @@ Smartwatch design running on Arduino Nano 33 BLE Sense board. The board is using
 
 Smartwatch features:
 - Automatic Time Update (using timer interrupt) and manual Time Update (synced with smartphone via Bluetooth)
-- Hand Gesture control: change the OLED screen <SSD1306> with Proximity and Gesture sensor <APDS9960> detecting UP, DOWN, RIGHT, LEFT movement using Interrupt.
-- Fall detection: detect the potential fall accident of the watcher bearer, using Accelerometer and Gyroscope <LSM9DS1>. Sending Alert via Bluetooth to Smartphone using Alert Service.
+- Hand Gesture control: change the OLED screen _(SSD1306)_ with Proximity and Gesture sensor _(APDS9960)_ detecting UP, DOWN, RIGHT, LEFT movement using Interrupt.
+- Fall detection: detect the potential fall accident of the watcher bearer, using Accelerometer and Gyroscope _(LSM9DS1)_. Sending Alert via Bluetooth to Smartphone using Alert Service.
 - For features demostration, check out the demo video (low quality):
 https://drive.google.com/file/d/11LvpyeYC4P7Ks7we7ZQ3CfzgQJ9pHEWI/view
 
